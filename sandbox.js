@@ -1,3 +1,4 @@
-alert ('hello world');
- console.log(1);
-  console.log('19');
+let age = 20;
+let year = 2020;
+
+console.log(age, year); // 20
