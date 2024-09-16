@@ -1,11 +1,6 @@
-let age = 20;
-let year = 2020;
+let firstName = 'Elvis';
+let lastName = 'Ezimako';
 
-console.log(age, year); // 20
+let fullName = firstName + " " + lastName;
 
-age = 30;
-console.log(age); // 30
-
-const points = 100;
-points = 40
-console.log(points);
+console.log(fullName.length);
