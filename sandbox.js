@@ -1,23 +1,19 @@
-// let firstName = 'Elvis';
-// let lastName = 'Ezimako';
+const title = "Best reads of 2019";
+const author = "Elvis";
+const likes = 30;
 
-// let fullName = firstName + " " + lastName;
+// concatenation way
+// let result =
+//   "The blog called " + title + " by " + author + " has " + likes + " likes";
 
-// console.log(fullName.toUpperCase());
+//   console.log(result);
 
-// answer = fullName.toLowerCase();
-// console.log(answer);
-
-// let likes = 10;
-
-// likes += 20;
-// likes++;
-// likes -= 5;
-
-// likes *= 2;
-
-// likes /= 2;
-
-// console.log(likes);
-// let result = ("The post  has " + likes + " likes");
+// let result = `The blog called ${title} by ${author} has ${likes} likess `;
 // console.log(result);
+// let html = `
+//  <h2>${title}</h2>
+//  <p> By ${author}</p>
+//  <span>The blog has ${likes} likes</span> 
+// `;
+
+// console.log(html);
