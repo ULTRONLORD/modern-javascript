@@ -1,19 +1,19 @@
-const title = "Best reads of 2019";
-const author = "Elvis";
-const likes = 30;
+let ninjas = ["Elvis", "Tochi", "Mech"];
 
-// concatenation way
-// let result =
-//   "The blog called " + title + " by " + author + " has " + likes + " likes";
+// ninjas[1] = 'pavilion';
 
-//   console.log(result);
+// console.log(ninjas[1]);
 
-// let result = `The blog called ${title} by ${author} has ${likes} likess `;
-// console.log(result);
-// let html = `
-//  <h2>${title}</h2>
-//  <p> By ${author}</p>
-//  <span>The blog has ${likes} likes</span> 
-// `;
+// console.log(ninjas.length);
 
-// console.log(html);
+// let result = ninjas.join(', ');
+
+ //let result = ninjas.indexOf("Mech")
+
+ //let result = ninjas.concat(['Sharon, David, Nellie']);
+
+let result = ninjas.push('Fred');
+result = ninjas.pop();
+
+
+ console.log(result);  
