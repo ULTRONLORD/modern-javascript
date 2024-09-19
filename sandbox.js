@@ -1,19 +1,3 @@
-let ninjas = ["Elvis", "Tochi", "Mech"];
+let age = null;
 
-// ninjas[1] = 'pavilion';
-
-// console.log(ninjas[1]);
-
-// console.log(ninjas.length);
-
-// let result = ninjas.join(', ');
-
- //let result = ninjas.indexOf("Mech")
-
- //let result = ninjas.concat(['Sharon, David, Nellie']);
-
-let result = ninjas.push('Fred');
-result = ninjas.pop();
-
-
- console.log(result);  
+console.log(age, age + 5, `the age is ${age}`);
