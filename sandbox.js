@@ -6,9 +6,14 @@ let email = "ezimakoelvis@gmail.com";
 let names = ["Elvis", "Mitchelle", "Gabriella", "Michael"];
 
 // let result = email.includes("e");
-let result = names.includes("Gabriella");
+//let result = names.includes("Gabriella");
+result = 50;
+age = 50;
 
+mern = (result!=age);
 
-console.log(result);
+console.log(mern);
 
 // comparison operators
+
+
