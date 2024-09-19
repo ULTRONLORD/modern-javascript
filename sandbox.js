@@ -1,3 +1,14 @@
-let age = null;
+//booleans and comparisons
+console.log(true, false, "true", "false");
 
-console.log(age, age + 5, `the age is ${age}`);
+//methods that can return booleans
+let email = "ezimakoelvis@gmail.com";
+let names = ["Elvis", "Mitchelle", "Gabriella", "Michael"];
+
+// let result = email.includes("e");
+let result = names.includes("Gabriella");
+
+
+console.log(result);
+
+// comparison operators
