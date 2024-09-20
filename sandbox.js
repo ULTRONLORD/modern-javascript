@@ -1,6 +1,6 @@
-let i = 2;
+//if statements
+const age = 72;
 
-do {
-  console.log("i is equal to:", i);
-  i++;
-} while (i < 5);
+if(age > 60){
+  console.log("You are over the allowed age which is 60");
+}
