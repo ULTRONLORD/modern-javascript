@@ -6,8 +6,8 @@ function greet() {
 }
 
 //Function Expression
-const speak = function () {
-  console.log("I'll be going to cafe soon");
+const speak = function (name = "Elvis", time = "Afternoon") {
+  console.log(`Good ${time} ${name}`);
 };
 
-speak();
+speak("Prof Elvis", "Evening");
