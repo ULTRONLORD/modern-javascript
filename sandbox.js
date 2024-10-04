@@ -13,8 +13,7 @@
 // speak("Prof Elvis", "Evening");
 
 const calcArea = function (radius) {
-  let area = 3.14 * radius ** 2;
-  return area;
+  return area = 3.14 * radius ** 2;
 };
 
 const area = calcArea(5);
