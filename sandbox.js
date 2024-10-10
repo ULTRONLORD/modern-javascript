@@ -1,20 +1,10 @@
-//Functions and Methods
+// practising arrow functions
 
-//function declaratiion
-// function greet() {
-//   console.log("Hey there I'm quite hungry");
-// }
-
-//Function Expression
-// const speak = function (name = "Elvis", time = "Afternoon") {
-//   console.log(`Good ${time} ${name}`);
+// const greet = function () {
+//   return "Hello World!";
 // };
 
-// speak("Prof Elvis", "Evening");
+const greet = () => "Hello, world!";
+const result = greet();
 
-const calcArea = function (radius) {
-  return area = 3.14 * radius ** 2;
-};
-
-const area = calcArea(5);
-console.log(area);
+console.log(result);
